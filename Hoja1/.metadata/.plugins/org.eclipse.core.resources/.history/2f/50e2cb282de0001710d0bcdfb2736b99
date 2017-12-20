@@ -1,0 +1,9 @@
+
+public class CuentaCorriente {
+	String numCuenta;
+	double saldo;
+	CuentaCorriente(String cuenta, double cantidad){
+		numCuenta=cuenta;
+		saldo=cantidad;
+	}
+}

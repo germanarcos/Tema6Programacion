@@ -1,0 +1,7 @@
+	
+public class Ej4 {
+	public static void main(String[] args){
+		CuentaCorriente cuenta1 = new CuentaCorriente();
+		CuentaCorriente cuenta2 = new CuentaCorriente();
+	}
+}

@@ -1,0 +1,12 @@
+
+public class TragaBolas {
+	final String color;
+	int bolasComidas;
+	int maxBolas;
+	public void TragaBolas(String x, int y){
+		bolasComidas=0;
+		maxBolas=y;
+		color = x;
+	}
+	
+}

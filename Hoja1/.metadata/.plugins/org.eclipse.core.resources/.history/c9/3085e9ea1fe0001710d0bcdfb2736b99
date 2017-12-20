@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Ej3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int opcion;
+		Scanner teclado = new Scanner(System.in);
+		System.out.println("Introduce el color del tragabolas.");
+		String color = teclado.next();
+		while(color.compareToIgnoreCase("verde")!=0 || 
+				color.compareToIgnoreCase("rojo")!=0 || 0!=color.compareToIgnoreCase("amarillo")){
+			System.out.println("El color solo puede ser verde, rojo o amarillo.");
+			color = teclado.next();
+		}
+		System.out.println("Introduce el máximo de bolas que pueda comer");
+		int bolas = teclado.nextInt();
+		while(bolas<=0){
+			System.out.println("Introduce un número de bolas mayor que 0.");
+			bolas = teclado.nextInt();
+		}
+		do{
+			
+		}while(opcion !=0);
+	}
+
+}

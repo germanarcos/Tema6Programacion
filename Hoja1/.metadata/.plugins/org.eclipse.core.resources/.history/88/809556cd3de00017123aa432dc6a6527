@@ -1,0 +1,24 @@
+/**
+ * 
+ * @author Germán Arcos
+ *@version 1.0
+ *aaaaa descripcion etc etc
+ */
+public class division {
+	/**
+	 * 
+	 * @param x 
+	 * @param y
+	 * @return
+	 * @throws Exception
+	 */
+	public static double divisionReal(double x,double y) throws Exception{
+		double resultado;
+		if(y!=0){
+			resultado = x/y;
+		}else{
+			throw new Exception();
+		}
+		return resultado;
+	}
+}

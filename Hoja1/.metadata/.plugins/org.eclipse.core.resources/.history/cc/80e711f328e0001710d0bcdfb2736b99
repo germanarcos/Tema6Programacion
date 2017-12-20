@@ -1,0 +1,4 @@
+
+public class division {
+	public static double divisionReal(double x,double y) throws Exception;
+}

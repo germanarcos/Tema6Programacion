@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class Ej4 {
+	public static void main(String[] args){
+		CuentaCorriente cuenta1 = new CuentaCorriente();
+		CuentaCorriente cuenta2 = new CuentaCorriente();
+		int opcion = 0;
+		Scanner teclado = new Scanner(System.in);
+		do{
+			System.out.println("1: Ingresar en la cuenta 001");
+			System.out.println("2: Ingresar en la cuenta 002");
+			System.out.println("3: Retirar de la cuenta 001");
+			System.out.println("4: Retirar de la cuenta 002");
+			System.out.println("5: Visualizar ambas cuentas");
+			System.out.println("0: Fin");
+			opcion = teclado.nextInt();
+			switch(opcion){
+			case 0:
+				break;
+			case 1:
+				break;
+			case 2:
+				break;
+			case 3:
+				break;
+			case 4:
+				break;
+			case 5:
+				break;
+			}
+		}while(opcion!=0);
+	}
+}

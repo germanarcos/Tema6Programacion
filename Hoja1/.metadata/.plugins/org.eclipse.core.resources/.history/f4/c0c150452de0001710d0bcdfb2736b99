@@ -1,0 +1,22 @@
+
+public class CuentaCorriente {
+	private String numCuenta;
+	private double saldo;
+	CuentaCorriente(String cuenta, double cantidad){
+		numCuenta=cuenta;
+		saldo=cantidad;
+	}
+	public void ingresaEfectivo (double cantidad){
+		saldo+=cantidad;
+	}
+	public boolean retirarEfectivo (double cantidad){
+		if(saldo>=cantidad){
+			saldo-=cantidad;
+			return true;
+		} 
+		else{
+			return false;
+		}
+	}
+	public void visualiza
+}
