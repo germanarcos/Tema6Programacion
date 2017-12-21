@@ -1,0 +1,14 @@
+1513788963011	Delete elements
+1513789765341	Extract local variable 'existeDepart'
+1513789865531	Extract local variable 'NOEXISTEDEPART'
+1513789890609	Extract local variable 'depar_error'
+1513790006317	Extract method 'insertarDepartamento'
+1513790037608	Extract method 'consultar'
+1513790061092	Extract method 'borrar'
+1513790077008	Extract method 'modificar'
+1513790529807	Extract method 'altadepart'
+1513790546672	Extract method 'consuldepart'
+1513790557379	Extract method 'borradepart'
+1513790567681	Extract method 'modifdepart'
+1513792392850	Extract Class...
+1513792426109	Delete element

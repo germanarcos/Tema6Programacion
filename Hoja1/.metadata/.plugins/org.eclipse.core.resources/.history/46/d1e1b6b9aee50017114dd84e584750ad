@@ -1,0 +1,10 @@
+import javax.swing.JButton;
+
+public class SuperclaseDepart {
+	public JButton balta;ublic JButton ver;
+
+	public SuperclaseDepart(JButton balta, JButton ver) {
+		this.balta = balta;
+		this.ver = ver;
+	}
+}
