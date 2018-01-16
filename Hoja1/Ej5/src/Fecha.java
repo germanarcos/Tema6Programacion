@@ -3,7 +3,6 @@ public class Fecha {
 	private int dia;
 	private int anyo;
 	private int mes;
-	private int diamax;
 	Fecha(int dia, int mes, int anyo){
 		this.dia=dia;
 		this.anyo=anyo;
@@ -21,10 +20,8 @@ public class Fecha {
 		this.dia=dia;
 		this.anyo=anyo;
 		this.mes=mes;
-		if(this.esCorrecta()==true && mod==false){
-			System.out.println("Se ha introducido una fecha correcta.");
-		}else{
-			if(mod==true){
+		if(!this.esCorrecta() && mod){
+			if(!mod){
 				System.out.println("Se ha introducido una fecha incorrecta");
 			}
 			this.dia=0;
@@ -60,6 +57,7 @@ public class Fecha {
 			return false;
 	}
 	public boolean esCorrecta(){
+		int diamax;
 		if(mes>0 && mes<=12){
 			diamax=getDiasMes();
 			if(dia>diamax){
@@ -127,9 +125,6 @@ public class Fecha {
 	public Integer getDiasMes(){
 		Integer dias;
 		switch (mes){
-			case 0:
-				dias = null;
-				break;
 			case 4:
 			case 6:
 			case 9:
@@ -160,44 +155,70 @@ public class Fecha {
 		return cadenaFecha;
 	}
 	public Integer diferenciaFecha(Fecha fecha2){
-		//Fecha mayor sobre la que se llama el metodo
+		//Creo y espero que este bien ya porque no voy a pensar mas
+		//La fecha mayor será sobre la que se llama el metodo siempre.
 		Integer num=0;
-		Fecha temp= new Fecha(fecha2.dia,fecha2.mes,fecha2.anyo,true);
-		if(temp.anyo>this.anyo){
-			temp.anyo=this.anyo;
-			this.anyo=fecha2.anyo;
-			this.mes=fecha2.mes;
-			this.dia=fecha2.dia;
+		if(fecha2.dia==0 || this.dia==0){
+			System.out.println("Una de las dos fechas es incorrecta");
+			return 0;
+		}else{
+			//Utilizamos el constructor con mod para que no nos diga si se ha introducido fecha correcta o no, se presupone que lo es.
+		Fecha tempMenor= new Fecha(fecha2.dia,fecha2.mes,fecha2.anyo,true);
+		Fecha tempMayor= new Fecha(this.dia,this.mes,this.anyo,true);
+		if(tempMenor.anyo>tempMayor.anyo){
+			tempMenor.anyo=tempMayor.anyo;
+			tempMenor.dia=tempMayor.dia;
+			tempMenor.mes=tempMayor.mes;
+			tempMayor.anyo=fecha2.anyo;
+			tempMayor.mes=fecha2.mes;
+			tempMayor.dia=fecha2.dia;
 		}
-		for(;temp.anyo<this.anyo;temp.anyo=(temp.anyo+1)){
-			if(temp.getAnyo()%4==0){
+		else if(tempMenor.anyo==tempMayor.anyo && tempMenor.mes>tempMayor.mes){
+			tempMenor.anyo=tempMayor.anyo;
+			tempMenor.dia=tempMayor.dia;
+			tempMenor.mes=tempMayor.mes;
+			tempMayor.anyo=fecha2.anyo;
+			tempMayor.mes=fecha2.mes;
+			tempMayor.dia=fecha2.dia;
+		}
+		else if(tempMenor.anyo==tempMayor.anyo && tempMenor.mes==tempMayor.mes && tempMenor.dia>tempMayor.dia){
+			tempMenor.anyo=tempMayor.anyo;
+			tempMenor.dia=tempMayor.dia;
+			tempMenor.mes=tempMayor.mes;
+			tempMayor.anyo=fecha2.anyo;
+			tempMayor.mes=fecha2.mes;
+			tempMayor.dia=fecha2.dia;
+		}
+		for(;tempMenor.anyo<tempMayor.anyo;tempMenor.anyo=(tempMenor.anyo+1)){
+			if(tempMenor.getAnyo()%4==0){
 				num+=366;
 			}
 			else{
 				num+=365;
 			}
 		}
-		if(temp.mes!=this.mes){
-			if(temp.mes>this.mes){
-				for(;temp.mes>this.mes;temp.mes-=1){
-					num-=temp.getDiasMes();
+		if(tempMenor.mes!=tempMayor.mes){
+			if(tempMenor.mes>tempMayor.mes){
+				for(;tempMenor.mes>tempMayor.mes;tempMenor.mes-=1){
+					num-=tempMenor.getDiasMes();
 				}
 			}
 			else{
-				for(;temp.mes<this.mes;temp.mes+=1){
-					num+=temp.getDiasMes();
+				for(;tempMenor.mes<tempMayor.mes;tempMenor.mes+=1){
+					num+=tempMenor.getDiasMes();
 				}
 			}
 		}
-		if(temp.dia!=this.dia){
-			if(temp.dia>this.dia){
-				num-=(temp.dia-this.dia);
+		if(tempMenor.dia!=tempMayor.dia){
+			if(tempMenor.dia>tempMayor.dia){
+				num-=(tempMenor.dia-tempMayor.dia);
 			}
 			else{
-				num+=(this.dia-temp.dia);
+				num+=(tempMayor.dia-tempMenor.dia);
 			}
 		}
 		return num;
+		}
 	}
 	public Fecha sumaDias(Integer num){
 		while(num>0){
