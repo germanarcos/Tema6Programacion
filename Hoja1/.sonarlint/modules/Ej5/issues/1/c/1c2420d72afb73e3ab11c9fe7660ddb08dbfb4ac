@@ -1,32 +1,27 @@
 
-e
-squid:S106"9Replace this use of System.out or System.err by a logger.(š´³ÍHÁRMAJORZ
+nsquid:S1126B"AReplace this if-then-else statement by a single return statement.(ìÖ¦æH˜RMINORZ
 CODE_SMELL
-squid:S4165y"gRemove this useless assignment; "cadenaMes" already holds the assigned value along all execution paths.(¹ÄÉÄHŞRMAJORZBUG
-Tsquid:S1125"(Remove the literal "true" boolean value.(İ«´HÇRMINORZ
-CODE_SMELL
-Gsquid:S1220""Move this file to a named package.HÊRMINORZ
-CODE_SMELL
-Usquid:S1125")Remove the literal "false" boolean value.(İ«´HÈRMINORZ
-CODE_SMELL
-ƒsquid:S3776¢"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(úù÷HËRCRITICALZ
+ƒsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(úù÷H›RCRITICALZ
 CODE_SMELL
 j
-squid:S106"9Replace this use of System.out or System.err by a logger.(ºÌÎûÿÿÿÿHÀRMAJORZ
-CODE_SMELL
-nsquid:S11269"AReplace this if-then-else statement by a single return statement.(±—ª HÄRMINORZ
-CODE_SMELL
-Usquid:S1125"(Remove the literal "true" boolean value.(¢’İÿHÆRMINORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(ºÌÎûÿÿÿÿHšRMAJORZ
 CODE_SMELL
 e
-squid:S106"9Replace this use of System.out or System.err by a logger.(š´³ÍHÃRMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(š´³ÍH£RMAJORZ
 CODE_SMELL
-nsquid:S1126D"AReplace this if-then-else statement by a single return statement.(ìÖ¦æHÅRMINORZ
+nsquid:S11266"AReplace this if-then-else statement by a single return statement.(ã¾ıÀHRMINORZ
 CODE_SMELL
-j
-squid:S106"9Replace this use of System.out or System.err by a logger.(ºÌÎûÿÿÿÿHÂRMAJORZ
+qsquid:S2583"DChange this condition so that it does not always evaluate to "false"(“íÈ…8‡†ğü,HÄRMAJORZBUG
+squid:S3923¨"[Remove this conditional structure or edit its code blocks so that they're not all the same.(¬•Ï¾şÿÿÿÿ8Ö’ş,HãRMAJORZBUG
+squid:S4165w"gRemove this useless assignment; "cadenaMes" already holds the assigned value along all execution paths.(¹ÄÉÄHœRMAJORZBUG
+Gsquid:S1220""Move this file to a named package.H¢RMINORZ
 CODE_SMELL
-Usquid:S1125"(Remove the literal "true" boolean value.(«ŸÛHÉRMINORZ
+Usquid:S1125
+"(Remove the literal "true" boolean value.(¢’İÿHŸRMINORZ
 CODE_SMELL
-‚squid:S1450"URemove the "diamax" field and declare it as a local variable in the relevant methods.(š…¡ÕH¾RMINORZ
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(š´³ÍH—RMAJORZ
+CODE_SMELL
+m
+squid:S106¢"9Replace this use of System.out or System.err by a logger.(´ÇÖï8àöŞü,HÁRMAJORZ
 CODE_SMELL

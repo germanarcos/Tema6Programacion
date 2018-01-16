@@ -1,10 +1,10 @@
 
-ysquid:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(Çµí‘H»RMAJORZ
+ysquid:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(Çµí‘HúRMAJORZ
 CODE_SMELL
-Gsquid:S1220""Move this file to a named package.HºRMINORZ
+{squid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·š†‡HûRMINORZ
 CODE_SMELL
-{squid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·š†‡H¼RMINORZ
+Gsquid:S1220""Move this file to a named package.HüRMINORZ
 CODE_SMELL
-e
-squid:S106"9Replace this use of System.out or System.err by a logger.(öÚÎ–H¸RMAJORZ
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÊŠ”¼ýÿÿÿÿHùRMAJORZ
 CODE_SMELL
