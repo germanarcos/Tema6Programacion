@@ -1,10 +1,8 @@
 import java.util.Scanner;
 public class Ej4 {
 	public static void main(String[] args){
-		CuentaCorriente cuenta1 = new CuentaCorriente();
-		CuentaCorriente cuenta2 = new CuentaCorriente();
-		cuenta1.CuentaCorriente("001", 0);
-		cuenta2.CuentaCorriente("002", 0);
+		CuentaCorriente cuenta1 = new CuentaCorriente("001", 0);
+		CuentaCorriente cuenta2 = new CuentaCorriente("002", 0);
 		int opcion = 0;
 		double cantidad;
 		Scanner teclado = new Scanner(System.in);
@@ -30,12 +28,20 @@ public class Ej4 {
 			case 3:
 				System.out.println("Introduce una cantidad: ");
 				cantidad = teclado.nextDouble();
-				cuenta1.retirarEfectivo(cantidad);
+				if(cuenta1.retirarEfectivo(cantidad)==false){
+					System.out.println("No se ha podido retirar");
+				}else{
+					System.out.println("Se ha retirado "+cantidad);
+				}
 				break;
 			case 4:
 				System.out.println("Introduce una cantidad: ");
 				cantidad = teclado.nextDouble();
-				cuenta2.retirarEfectivo(cantidad);
+				if (cuenta2.retirarEfectivo(cantidad)==false){
+					System.out.println("No se ha podido retirar");
+				}else{
+					System.out.println("Se ha retirado "+cantidad);
+				}
 				break;
 			case 5:
 				System.out.println("Cuenta 1:\n");

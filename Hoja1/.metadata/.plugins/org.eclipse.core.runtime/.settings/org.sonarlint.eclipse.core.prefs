@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+servers/SonarCloud%2Fasdfs/auth=true
+servers/SonarCloud%2Fasdfs/notificationsEnabled=false
+servers/SonarCloud%2Fasdfs/org=asdfs
+servers/SonarCloud%2Fasdfs/url=https\://sonarcloud.io

@@ -1,0 +1,63 @@
+
+i"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(°€àâHâRCRITICALZ
+CODE_SMELL
+‰squid:S1192"YDefine a constant instead of duplicating this literal "Introduce una cantidad: " 4 times.(¦«ÓıHãRCRITICALZ
+CODE_SMELL
+e
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(­¾­ÀHäRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(¹ÓàHåRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ë¤÷HæRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÛÍí´ÿÿÿÿÿHçRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.( «ò‚HèRMAJORZ
+CODE_SMELL
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(§¯Õ©ùÿÿÿÿHéRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(¦«ÓıHêRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(¦«ÓıHëRMAJORZ
+CODE_SMELL
+e
+squid:S106"9Replace this use of System.out or System.err by a logger.(¦«ÓıHìRMAJORZ
+CODE_SMELL
+j
+squid:S106 "9Replace this use of System.out or System.err by a logger.(ôêØİøÿÿÿÿHíRMAJORZ
+CODE_SMELL
+e
+squid:S106""9Replace this use of System.out or System.err by a logger.(°Ï‚¡HîRMAJORZ
+CODE_SMELL
+e
+squid:S106&"9Replace this use of System.out or System.err by a logger.(¦«ÓıHïRMAJORZ
+CODE_SMELL
+j
+squid:S106)"9Replace this use of System.out or System.err by a logger.(ôêØİøÿÿÿÿHğRMAJORZ
+CODE_SMELL
+e
+squid:S106+"9Replace this use of System.out or System.err by a logger.(°Ï‚¡HñRMAJORZ
+CODE_SMELL
+j
+squid:S106/"9Replace this use of System.out or System.err by a logger.(ÙÊ£êûÿÿÿÿHòRMAJORZ
+CODE_SMELL
+j
+squid:S1061"9Replace this use of System.out or System.err by a logger.(¨ùæíşÿÿÿÿHóRMAJORZ
+CODE_SMELL
+j
+squid:S1067"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿHôRMAJORZ
+CODE_SMELL
+[squid:S1125")Remove the literal "false" boolean value.(™×ãùÿÿÿÿHõRMINORZ
+CODE_SMELL
+[squid:S1125(")Remove the literal "false" boolean value.(¬–ç¸øÿÿÿÿHöRMINORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.H÷RMINORZ
+CODE_SMELL

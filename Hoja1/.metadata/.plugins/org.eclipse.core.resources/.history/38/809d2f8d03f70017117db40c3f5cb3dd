@@ -1,0 +1,12 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Fecha fecha = new Fecha(1,1,2019);
+		System.out.println(fecha.getCadenaFecha1());
+		Fecha fecha2 = new Fecha(1,1,2020);
+		System.out.println(fecha2.getCadenaFecha1());
+		System.out.println(fecha.diferenciaFecha(fech));
+	}
+}

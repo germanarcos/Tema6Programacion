@@ -1,0 +1,13 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Fecha fecha = new Fecha(31,12,2018);
+		fecha.sumaDias(1);
+		System.out.println(fecha.getCadenaFecha1());
+		System.out.println(fecha.getCadenaFecha2());
+		Fecha fecha2 = new Fecha(1,1,2018);
+		System.out.println(fecha.diferenciaFecha(fecha2));
+	}
+}

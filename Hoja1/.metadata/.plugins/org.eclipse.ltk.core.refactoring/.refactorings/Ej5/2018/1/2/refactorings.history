@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;fecha2&apos; in &apos;Fecha.diferenciaFecha(...)&apos; to &apos;temp&apos;&#x0D;&#x0A;- Original project: &apos;Ej5&apos;&#x0D;&#x0A;- Original element: &apos;Fecha.diferenciaFecha(Fecha).fecha2&apos;&#x0D;&#x0A;- Renamed element: &apos;fecha2&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;fecha2&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{Fecha.java[Fecha~diferenciaFecha~QFecha;@fecha2!2488!2499!2494!2499!QFecha;!0!true" name="temp" references="true" stamp="1515697608053" version="1.0"/>
+</session>

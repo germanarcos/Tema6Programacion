@@ -1,7 +1,0 @@
-
-public class divi {
-	public static int division (int x, int y) throws Exception{
-		
-		return x/y;
-	}
-}
