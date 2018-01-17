@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Scanner;
+public class GestionLibroAutor {
+	public static void main (String[] args){
+		Scanner teclado = new Scanner(System.in);
+		ArrayList<Libro> listado = new ArrayList<>();
+		int opcion;
+//		Libro libro = new Libro();
+//		listado.add(libro);
+//		Iterator<Libro> iterador = listado.iterator();
+		
+	}
+	public static void mostrarMenu(){
+		System.out.println("1- Crear libros.");
+		System.out.println("2- Modificar autor.");
+		System.out.println("3. Modificar libro.");
+		System.out.println("4. Listado de libros.");
+		System.out.println("5. Listado de autores.");
+		System.out.println("0. Salir.");
+	}
+}

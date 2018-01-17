@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Ejs3-4&apos; to &apos;LibroUnAutor&apos;&#x0D;&#x0A;- Original element: &apos;Ejs3-4&apos;&#x0D;&#x0A;- Renamed element: &apos;Ejs3-4&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Ejs3-4&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Ejs3-4" name="LibroUnAutor" references="true" stamp="1516215403177" version="1.0"/>
+</session>

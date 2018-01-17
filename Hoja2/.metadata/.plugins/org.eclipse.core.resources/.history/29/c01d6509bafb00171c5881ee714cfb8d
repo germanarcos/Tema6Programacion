@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+
+public class GestionLibroAutor {
+	public static void main (String[] args){
+		ArrayList<Libro> listado = new ArrayList<>();
+		Libro libro = new Libro();
+		Iterator<libro> iterador = listado.iterator(); 
+		listado.add(libro);
+	}
+}

@@ -1,0 +1,7 @@
+import java.util.ArrayList;
+
+public class GestionLibroAutor {
+	ArrayList<Libro> listado = new ArrayList<>();
+	Libro libro = new Libro();
+	listado.add(libro);
+}

@@ -1,0 +1,27 @@
+
+public class Autor {
+	private String nombre;
+	private String email;
+	private char genero;
+
+	private boolean generoCorrecto() {
+		if (genero != 'm' && genero != 'f') {
+			return false;
+		} else {
+			return true;
+		}
+	}
+	public String getNombre(){
+		return this.nombre;
+	}
+	public String getEmail(){
+		return this.email;
+	}
+	public void setEmail(String email){
+		this.email = email;
+	}
+	public char getGenero(){
+		return genero;
+	}
+
+}
