@@ -1,0 +1,8 @@
+
+public class ListaDePaises {
+	String [] paises;
+	ListaDePaises(int numeroMaximo){
+		paises = new String[numeroMaximo];
+	}
+	
+}

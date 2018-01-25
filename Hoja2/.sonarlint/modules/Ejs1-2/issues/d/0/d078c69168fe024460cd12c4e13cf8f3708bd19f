@@ -1,13 +1,13 @@
 
-bsquid:S1066="/Merge this if statement with the enclosing one.(ƒÉ€ú8é®Õ,H'RMAJORZ
+csquid:S1066@"/Merge this if statement with the enclosing one.(ƒÉ€ú8é®Õ,HîRMAJORZ
 CODE_SMELL
-k
-squid:S1068"9Replace this use of System.out or System.err by a logger.(çòß­8˜„ĞÔ,H&RMAJORZ
+msquid:S26966"6Make the enclosing method "static" or remove this set.(Ô¤İÒ8‚†ìÔ,HïRCRITICALZ
 CODE_SMELL
-p
-squid:S1069"9Replace this use of System.out or System.err by a logger.(¤ñ±«ûÿÿÿÿ8˜„ĞÔ,H$RMAJORZ
+l
+squid:S106:"9Replace this use of System.out or System.err by a logger.(çòß­8˜„ĞÔ,HğRMAJORZ
 CODE_SMELL
-Fsquid:S1220""Move this file to a named package.H%RMINORZ
+q
+squid:S106;"9Replace this use of System.out or System.err by a logger.(¤ñ±«ûÿÿÿÿ8˜„ĞÔ,HñRMAJORZ
 CODE_SMELL
-lsquid:S26964"6Make the enclosing method "static" or remove this set.(Ô¤İÒ8‚†ìÔ,H!RCRITICALZ
+Gsquid:S1220""Move this file to a named package.HòRMINORZ
 CODE_SMELL

@@ -42,9 +42,10 @@ public class Libro {
 	public Autor getAutor() {
 		return autor;
 	}
-	public String cadenaLibro(){
-		String cadena = "Libro [titulo = "+ titulo + "\n"+autor.cadenaAutor()
-		+"\nprecio = "+precio+"\ncantidad = " + cantidad+"]\"";
+
+	public String cadenaLibro() {
+		String cadena = "Libro [titulo = " + titulo + "\n" + autor.cadenaAutor() + "\nprecio = " + precio
+				+ "\ncantidad = " + cantidad + "]\"";
 		return cadena;
 	}
 }

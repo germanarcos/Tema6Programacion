@@ -1,0 +1,33 @@
+
+[squid:S1659M"'Declare "indTitulo" on a separate line.(“³•Ó8ßÖõ’,HÿRMINORZ
+CODE_SMELL
+~squid:S22594"L"NullPointerException" will be thrown when invoking method "listarLibros()".( ¨Å¨şÿÿÿÿ8ßÖõ’,H€RMAJORZBUG
+Xsquid:S1659N"$Declare "genero" on a separate line.(·‘˜½8ßÖõ’,HRMINORZ
+CODE_SMELL
+squid:S2259$"M"NullPointerException" will be thrown when invoking method "listarAutores()".(Ëá¼Ÿøÿÿÿÿ8ßÖõ’,H‚RMAJORZBUG
+Ysquid:S1659¶"$Declare "opcion" on a separate line.(‰—®Ô8ßÖõ’,HƒRMINORZ
+CODE_SMELL
+p"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(°€àâ8ßÖõ’,H„RCRITICALZ
+CODE_SMELL
+]squid:S1659"$Declare "titulo" on a separate line.(·Í†âûÿÿÿÿ8ßÖõ’,H…RMINORZ
+CODE_SMELL
+_squid:S1659"+Declare "cuantosLibros" on a separate line.(Ãö®«8ßÖõ’,H†RMINORZ
+CODE_SMELL
+squid:S22597"M"NullPointerException" will be thrown when invoking method "listarAutores()".(Ëá¼Ÿøÿÿÿÿ8ßÖõ’,H‡RMAJORZBUG
+bsquid:S1659u")Declare "indiceLibro" on a separate line.(õ·Î¬øÿÿÿÿ8ßÖõ’,HˆRMINORZ
+CODE_SMELL
+„squid:CommentedOutCodeLineA"<This block of commented-out lines of code should be removed.(Òù¶±ùÿÿÿÿ8ßÖõ’,H‰RMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.HŠRMINORZ
+CODE_SMELL
+‰squid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(Çµí‘8ßÖõ’,H‹RCRITICALZ
+CODE_SMELL
+]squid:S1659N")Declare "nombreAutor" on a separate line.(·‘˜½8ßÖõ’,HŒRMINORZ
+CODE_SMELL
+Zsquid:S1659M"&Declare "indAutor" on a separate line.(“³•Ó8ßÖõ’,HRMINORZ
+CODE_SMELL
+Wsquid:S1659N"#Declare "email" on a separate line.(·‘˜½8ßÖõ’,HRMINORZ
+CODE_SMELL
+^squid:S1659ƒ")Declare "indiceAutor" on a separate line.(£‡ÿÆ8ßÖõ’,HRMINORZ
+CODE_SMELL
+~squid:S2259,"L"NullPointerException" will be thrown when invoking method "listarLibros()".( ¨Å¨şÿÿÿÿ8ßÖõ’,HRMAJORZBUG

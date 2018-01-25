@@ -11,28 +11,28 @@ import java.io.InputStreamReader;
  *
  */
 public class Leer {
-	
+
 	/**
 	 * Método para imprimir mensaje que se repetía
 	 */
-	static public void mostrarEnPantalla(String mensage){
+	static public void mostrarEnPantalla(String mensage) {
 		System.out.println(mensage);
 	}
-	
+
 	/**
 	 * @param texto
 	 * @return
 	 */
 	static public String pedirCadena(final String texto) {
 		BufferedReader dataIn = new BufferedReader(new InputStreamReader(System.in));
-		String dato="";
+		String dato = "";
 		boolean error = true;
 		while (error) {
 			try {
-				dato="";
+				dato = "";
 				mostrarEnPantalla(texto);
 				dato = dataIn.readLine();
-				error=false;
+				error = false;
 			} catch (IOException e) {
 				mostrarEnPantalla("Vuelve a introducir el dato, por favor: ");
 				error = true;
@@ -41,78 +41,79 @@ public class Leer {
 		return dato;
 
 	}
-	
+
 	/**
 	 * @param texto
 	 * @return
 	 */
 	static public int pedirEntero(final String texto) {
 		BufferedReader dataIn = new BufferedReader(new InputStreamReader(System.in));
-		int dato=0;
+		int dato = 0;
 		boolean error = true;
 		while (error) {
 			try {
 				mostrarEnPantalla(texto);
 				dato = Integer.parseInt(dataIn.readLine());
-				error=false;
+				error = false;
 			} catch (IOException e) {
 				mostrarEnPantalla("Vuelve a introducir el dato, por favor");
 				error = true;
-			} catch(NumberFormatException e){
+			} catch (NumberFormatException e) {
 				mostrarEnPantalla("El dato introducido no es entero");
 				mostrarEnPantalla("Vuelve a introducir el dato, por favor: ");
-				error=true;
+				error = true;
 			}
 		}
 		return dato;
 
 	}
-	
+
 	/**
 	 * @param texto
 	 * @return
 	 */
 	static public double pedirDouble(final String texto) {
 		BufferedReader dataIn = new BufferedReader(new InputStreamReader(System.in));
-		double dato=0;
+		double dato = 0;
 		boolean error = true;
 		while (error) {
 			try {
 				mostrarEnPantalla(texto);
 				dato = Double.parseDouble(dataIn.readLine());
-				error=false;
+				error = false;
 			} catch (IOException e) {
 				mostrarEnPantalla("Vuelve a introducir el dato, por favor: ");
 				error = true;
-			} catch(NumberFormatException e){
+			} catch (NumberFormatException e) {
 				mostrarEnPantalla("El dato introducido no es decimal");
 				mostrarEnPantalla("Vuelve a introducir el dato, por favor: ");
-				error=true;
+				error = true;
 			}
 		}
 		return dato;
 
 	}
+
 	/**
 	 * @param texto
 	 * @return
 	 */
 	static public float pedirFloat(final String texto) {
 		BufferedReader dataIn = new BufferedReader(new InputStreamReader(System.in));
-		float dato=0;
+		float dato = 0;
 		boolean error = true;
 		while (error) {
 			try {
 				mostrarEnPantalla(texto);
 				dato = Float.parseFloat(dataIn.readLine());
-				error=false;
+				error = false;
 			} catch (IOException e) {
 				mostrarEnPantalla("Vuelve a introducir el dato, por favor: ");
 				error = true;
-			} catch(NumberFormatException e){
+			} catch (NumberFormatException e) {
 				mostrarEnPantalla("El dato introducido no es decimal");
 				mostrarEnPantalla("Vuelve a introducir el dato, por favor: ");
-				error=true;
+				error = true;
 			}
 		}
 		return dato;

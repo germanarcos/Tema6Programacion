@@ -1,0 +1,34 @@
+
+public class ListaDePaises {
+	String[] paises;
+	int numElementos;
+	int maxElementos;
+
+	ListaDePaises(int numeroMaximo) {
+		paises = new String[numeroMaximo];
+	}
+
+	public Boolean anyadir(String nombre) {
+		return true;
+		// Placeholded
+	}
+
+	public Boolean borrar(String nombre) {
+		return true;
+		// Placeholded
+	}
+
+	public void vaciarLista() {
+		for (int i = 0; i < maxElementos; i++) {
+			paises[i] = null;
+		}
+	}
+	public String mostrar(int posicion){
+		if(paises[posicion]==null){
+			return null;
+		}else{
+			return paises[posicion];
+		}
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class ListaDePaises {
+	String[] paises;
+	int numElementos;
+	int maxElementos;
+
+	ListaDePaises(int numeroMaximo) {
+		paises = new String[numeroMaximo];
+	}
+
+}

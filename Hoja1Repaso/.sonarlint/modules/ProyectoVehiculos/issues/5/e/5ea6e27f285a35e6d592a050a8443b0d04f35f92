@@ -1,0 +1,11 @@
+
+Fsquid:S1220""Move this file to a named package.HRMINORZ
+CODE_SMELL
+qsquid:S1854"9Remove this useless assignment to local variable "coche".(—¾»®þÿÿÿÿ8‘…„õ’,HRMAJORZ
+CODE_SMELL
+bsquid:S1481"*Remove this unused "coche" local variable.(—¾»®þÿÿÿÿ8‘…„õ’,HRMINORZ
+CODE_SMELL
+asquid:S1481")Remove this unused "moto" local variable.(Î’“Óúÿÿÿÿ8‘…„õ’,HRMINORZ
+CODE_SMELL
+psquid:S1854"8Remove this useless assignment to local variable "moto".(Î’“Óúÿÿÿÿ8‘…„õ’,HRMAJORZ
+CODE_SMELL

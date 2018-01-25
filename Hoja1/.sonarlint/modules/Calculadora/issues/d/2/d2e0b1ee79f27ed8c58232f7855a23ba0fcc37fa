@@ -1,13 +1,19 @@
 
-Gsquid:S1220""Move this file to a named package.HøRMINORZ
+–squid:S1488."]Immediately return this expression instead of assigning it to the temporary variable "resul".( Ë«ùÿÿÿÿ8š¸ÊÉ’,H˜RMINORZ
 CODE_SMELL
-‘squid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "resul".(§³ß³8 àÈ©,HûRMINORZ
+usquid:S1126"AReplace this if-then-else statement by a single return statement.(˜°î¥8ÉŒÇÉ’,H™RMINORZ
 CODE_SMELL
-‘squid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "resul".(ÏÌŞš8 àÈ©,HüRMINORZ
+–squid:S1488&"]Immediately return this expression instead of assigning it to the temporary variable "resul".( Ë«ùÿÿÿÿ8 àÈ©,HšRMINORZ
 CODE_SMELL
-[squid:S1659""Declare "num2" on a separate line.(á¥“Âıÿÿÿÿ8 àÈ©,HùRMINORZ
+‘squid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "resul".(§³ß³8 àÈ©,H›RMINORZ
 CODE_SMELL
-–squid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "resul".( Ë«ùÿÿÿÿ8 àÈ©,HıRMINORZ
+‘squid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "resul".(¯Ç¥˜8 àÈ©,HœRMINORZ
 CODE_SMELL
-‘squid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "resul".(¯Ç¥˜8 àÈ©,HúRMINORZ
+[squid:S1659""Declare "num2" on a separate line.(á¥“Âıÿÿÿÿ8 àÈ©,HRMINORZ
+CODE_SMELL
+‘squid:S1488!"]Immediately return this expression instead of assigning it to the temporary variable "resul".(ÏÌŞš8 àÈ©,HRMINORZ
+CODE_SMELL
+‘squid:S1488"]Immediately return this expression instead of assigning it to the temporary variable "resul".(½çí8ÉŒÇÉ’,HŸRMINORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.H RMINORZ
 CODE_SMELL

@@ -1,27 +1,27 @@
 
 e
-squid:S106"9Replace this use of System.out or System.err by a logger.(š´³ÍHëRMAJORZ
-CODE_SMELL
-nsquid:S1126B"AReplace this if-then-else statement by a single return statement.(ìÖ¦æHìRMINORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(š´³ÍH‡RMAJORZ
 CODE_SMELL
 e
-squid:S106"9Replace this use of System.out or System.err by a logger.(š´³ÍHíRMAJORZ
+squid:S106"9Replace this use of System.out or System.err by a logger.(š´³ÍHˆRMAJORZ
 CODE_SMELL
-Usquid:S1125
-"(Remove the literal "true" boolean value.(¢’İÿHîRMINORZ
+squid:S3923¨"[Remove this conditional structure or edit its code blocks so that they're not all the same.(¬•Ï¾şÿÿÿÿ8Ö’ş,H‰RMAJORZBUG
+j
+squid:S106"9Replace this use of System.out or System.err by a logger.(ºÌÎûÿÿÿÿHŠRMAJORZ
 CODE_SMELL
-squid:S3923¨"[Remove this conditional structure or edit its code blocks so that they're not all the same.(¬•Ï¾şÿÿÿÿ8Ö’ş,HïRMAJORZBUG
-squid:S4165w"gRemove this useless assignment; "cadenaMes" already holds the assigned value along all execution paths.(¹ÄÉÄHğRMAJORZBUG
-qsquid:S2583"DChange this condition so that it does not always evaluate to "false"(“íÈ…8‡†ğü,HñRMAJORZBUG
-ƒsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(úù÷HòRCRITICALZ
-CODE_SMELL
-Gsquid:S1220""Move this file to a named package.HóRMINORZ
+Gsquid:S1220""Move this file to a named package.H‹RMINORZ
 CODE_SMELL
 m
-squid:S106¢"9Replace this use of System.out or System.err by a logger.(´ÇÖï8àöŞü,HôRMAJORZ
+squid:S106¢"9Replace this use of System.out or System.err by a logger.(´ÇÖï8àöŞü,HŒRMAJORZ
 CODE_SMELL
-nsquid:S11266"AReplace this if-then-else statement by a single return statement.(ã¾ıÀHõRMINORZ
+qsquid:S2583"DChange this condition so that it does not always evaluate to "false"(“íÈ…8‡†ğü,HRMAJORZBUG
+nsquid:S11266"AReplace this if-then-else statement by a single return statement.(ã¾ıÀHRMINORZ
 CODE_SMELL
-j
-squid:S106"9Replace this use of System.out or System.err by a logger.(ºÌÎûÿÿÿÿHöRMAJORZ
+nsquid:S1126B"AReplace this if-then-else statement by a single return statement.(ìÖ¦æHRMINORZ
+CODE_SMELL
+Usquid:S1125
+"(Remove the literal "true" boolean value.(¢’İÿHRMINORZ
+CODE_SMELL
+squid:S4165w"gRemove this useless assignment; "cadenaMes" already holds the assigned value along all execution paths.(¹ÄÉÄH‘RMAJORZBUG
+ƒsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(úù÷H’RCRITICALZ
 CODE_SMELL

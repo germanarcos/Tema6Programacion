@@ -1,0 +1,64 @@
+
+m
+squid:S106„"9Replace this use of System.out or System.err by a logger.(à™•‚8Çü¼ó’,HÙRMAJORZ
+CODE_SMELL
+m
+squid:S106‘"9Replace this use of System.out or System.err by a logger.(Á¼İó8©Ë¬,HÚRMAJORZ
+CODE_SMELL
+p"squid:SwitchLastCaseIsDefaultCheck8""Add a default case to this switch.(¥ÊÜó8³ôËó’,HÛRCRITICALZ
+CODE_SMELL
+squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ŠŞƒç8Óˆş¬,HÜRMAJORZ
+CODE_SMELL
+r
+squid:S106"9Replace this use of System.out or System.err by a logger.(Œß´²úÿÿÿÿ8•÷øÓ,HİRMAJORZ
+CODE_SMELL
+r
+squid:S106…"9Replace this use of System.out or System.err by a logger.(ÎÛİ¤ıÿÿÿÿ8™ñÖó‘,HŞRMAJORZ
+CODE_SMELL
+m
+squid:S106"9Replace this use of System.out or System.err by a logger.(µ‡¿ˆ8©Ë¬,HßRMAJORZ
+CODE_SMELL
+r
+squid:S106‚"9Replace this use of System.out or System.err by a logger.(»È…Úùÿÿÿÿ8Çü¼ó’,HàRMAJORZ
+CODE_SMELL
+squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Øëß§8­÷·Ó,HáRMAJORZ
+CODE_SMELL
+q
+squid:S106I"9Replace this use of System.out or System.err by a logger.(ºïÁ³úÿÿÿÿ8™ñÖó‘,HâRMAJORZ
+CODE_SMELL
+m
+squid:S106ƒ"9Replace this use of System.out or System.err by a logger.(¾î´Ç8Çü¼ó’,HãRMAJORZ
+CODE_SMELL
+q
+squid:S106O"9Replace this use of System.out or System.err by a logger.(©ªİÈúÿÿÿÿ8™ñÖó‘,HäRMAJORZ
+CODE_SMELL
+m
+squid:S106€"9Replace this use of System.out or System.err by a logger.(³Ùºù8™ñÖó‘,HåRMAJORZ
+CODE_SMELL
+hsquid:EmptyStatementUsageCheck"Remove this empty statement.(Åñ­õşÿÿÿÿ8¼“ƒÕ,HæRMINORZ
+CODE_SMELL
+l
+squid:S106)"9Replace this use of System.out or System.err by a logger.(àı”¯8•÷øÓ,HçRMAJORZ
+CODE_SMELL
+r
+squid:S106Š"9Replace this use of System.out or System.err by a logger.(ß«Ñ–ûÿÿÿÿ8©Ë¬,HèRMAJORZ
+CODE_SMELL
+m
+squid:S106"9Replace this use of System.out or System.err by a logger.(µ§Ã8ÔÕ¹Ó,HéRMAJORZ
+CODE_SMELL
+Gsquid:S1220""Move this file to a named package.HêRMINORZ
+CODE_SMELL
+‰squid:S3776	"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(Çµí‘8¾œ†Ô,HëRCRITICALZ
+CODE_SMELL
+m
+squid:S106‹"9Replace this use of System.out or System.err by a logger.(Á¼İó8À®Éó‘,HìRMAJORZ
+CODE_SMELL
+tsquid:UselessImportCheck".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8™ñÖó‘,HíRMINORZ
+CODE_SMELL
+r
+squid:S106‰"9Replace this use of System.out or System.err by a logger.(“Î³ùÿÿÿÿ8•÷øÓ,HîRMAJORZ
+CODE_SMELL
+Xsquid:S1659"$Declare "tamano" on a separate line.(éö›Ç8­÷·Ó,HïRMINORZ
+CODE_SMELL
+squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(“ùµ8•‡¶¬,HğRMAJORZ
+CODE_SMELL
